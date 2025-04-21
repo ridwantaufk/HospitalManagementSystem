@@ -1,0 +1,391 @@
+🧩 DAFTAR MODUL SIMRS SECARA LENGKAP
+🔐 1. Modul Otentikasi & Keamanan
+Login/Logout
+
+Registrasi pengguna (user provisioning)
+
+Role & Permission (RBAC)
+
+Session management (JWT/token)
+
+OTP / 2FA (opsional)
+
+Audit log & aktivitas user
+
+🏥 2. Modul Pendaftaran Pasien
+Pendaftaran pasien baru & lama
+
+Nomor rekam medis otomatis
+
+Cetak kartu pasien
+
+Rujukan internal/eksternal
+
+Booking online (opsional)
+
+Integrasi BPJS (bridging)
+
+👩‍⚕️ 3. Modul Rawat Jalan
+Antrian pasien per poli
+
+SOAP dokter (Subjective, Objective, Assessment, Plan)
+
+Diagnosis ICD-10
+
+Input & cetak resep
+
+Tindakan medis
+
+Rujukan rawat inap/lab/radiologi
+
+🛏 4. Modul Rawat Inap
+Reservasi kamar & bed
+
+Pindah kamar/kelas
+
+Monitoring vital sign
+
+Catatan keperawatan
+
+Asuhan keperawatan & medis
+
+Visit dokter & terapi
+
+Nutrisi pasien
+
+Discharge planning
+
+🧪 5. Modul Laboratorium
+Permintaan pemeriksaan lab
+
+Integrasi alat lab otomatis
+
+Input hasil lab manual
+
+Cetak hasil & notifikasi ke dokter
+
+Histori hasil lab
+
+☢️ 6. Modul Radiologi
+Permintaan rontgen, CT, MRI, USG
+
+Integrasi DICOM & PACS
+
+Hasil radiologi (gambar + narasi)
+
+Review hasil oleh dokter spesialis
+
+Cetak dan distribusi hasil
+
+💊 7. Modul Farmasi
+Input resep dari rawat jalan/inap
+
+Pengeluaran & penerimaan obat
+
+Stock opname
+
+Batch, ED, dan kontrol stok
+
+E-resep & drug interaction check
+
+Laporan pengeluaran & penggunaan
+
+🧾 8. Modul Billing & Keuangan
+Estimasi biaya layanan
+
+Pembayaran & tagihan
+
+Faktur & kuitansi
+
+Transaksi BPJS & asuransi
+
+Pembatalan & retur pembayaran
+
+Rekap harian, bulanan, tahunan
+
+📝 9. Modul Rekam Medis Elektronik (EMR)
+Riwayat penyakit
+
+Riwayat perawatan
+
+Catatan tindakan dan terapi
+
+Upload file hasil pemeriksaan
+
+ICD-10 & ICD-9 CM
+
+Riwayat alergi & penyakit turunan
+
+🧍‍♂️ 10. Modul Sumber Daya Manusia (SDM)
+Data pegawai
+
+Absensi & jadwal kerja
+
+Cuti & izin
+
+Gaji & payroll
+
+Penilaian kinerja
+
+Kompetensi & pelatihan
+
+📦 11. Modul Manajemen Inventaris
+Stok obat & barang medis
+
+Permintaan & persetujuan
+
+Penerimaan barang
+
+Retur barang
+
+Kadaluarsa & batch kontrol
+
+Laporan stok & pemakaian
+
+🗂 12. Modul Laporan & Statistik
+Laporan kunjungan pasien
+
+Laporan tindakan & pelayanan
+
+Laporan penggunaan obat
+
+Grafik performa RS
+
+Laporan keuangan
+
+Pelaporan ke Dinkes / BPJS
+
+👨‍👩‍👧 13. Modul Manajemen Keluarga & Penanggung Jawab
+Data keluarga pasien
+
+Penanggung biaya
+
+Hubungan keluarga
+
+Riwayat keluarga
+
+📄 14. Modul Surat & Dokumen
+Surat rujukan
+
+Surat kontrol
+
+Surat keterangan sehat/sakit
+
+Resume medis
+
+Dokumen rawat inap/discharge
+
+E-signature integrasi (opsional)
+
+🧠 15. Modul Edukasi & Informasi Pasien
+Konseling online
+
+Artikel kesehatan
+
+Edukasi penyakit
+
+Reminder kontrol
+
+📱 16. Modul Mobile App / Patient Portal
+Booking antrian
+
+Cek hasil lab/radiologi
+
+Notifikasi jadwal
+
+Pembayaran online
+
+Telemedicine (opsional)
+
+📊 17. Modul Dashboard Manajemen
+Analitik performa RS
+
+Pemantauan layanan aktif
+
+Warning/kritikal stok/kamar
+
+Real-time monitoring pasien
+
+📡 18. Modul Bridging & Integrasi
+BPJS VClaim & E-Klaim
+
+DICOM/PACS Radiologi
+
+HL7 untuk integrasi alat medis
+
+API eksternal pihak ketiga
+
+SimRS lain (fasilitas rujukan)
+
+🚨 19. Modul Rawat Darurat / IGD (Instalasi Gawat Darurat)
+📋 Fitur-fitur utama:
+Triage Pasien (Prioritas)
+
+Kritis, gawat, sedang, ringan
+
+Sistem kode warna (merah, kuning, hijau, hitam)
+
+Pencatatan Data Awal Cepat
+
+Identitas cepat (minimal data)
+
+Entry nomor darurat / keluarga
+
+SOAP Darurat
+
+Kondisi pasien saat masuk
+
+Riwayat singkat kejadian
+
+Tindakan Gawat Darurat
+
+Penanganan awal (CPR, stabilisasi)
+
+Obat darurat
+
+Pemasangan alat bantu
+
+Dokumentasi Medis & Keperawatan
+
+Form IGD elektronik
+
+Catatan tindakan & waktu (time-sensitive)
+
+Monitoring
+
+Vital sign berkelanjutan
+
+Status kesadaran (GCS)
+
+Rujukan Internal
+
+Rujuk ke rawat inap / ICU
+
+Rujuk ke spesialis / operasi
+
+Surat & Dokumen
+
+Surat keterangan kecelakaan
+
+Resume IGD
+
+Laporan ke polisi (jika kasus hukum)
+
+Integrasi dengan Modul Lain
+
+Radiologi, Lab, Farmasi langsung dari IGD
+
+Billing khusus IGD
+
+Inventory untuk stok obat darurat
+🧩 20. Modul Antrian & Display Publik
+Sistem antrian pasien (rawat jalan, IGD, apotek, lab, dll)
+
+Panggilan otomatis (display TV, audio)
+
+Estimasi waktu tunggu
+
+Integrasi dengan pendaftaran & poli
+
+📞 21. Modul Call Center / Helpdesk
+Pusat informasi pasien
+
+Reservasi via telepon/WhatsApp
+
+Integrasi ke pendaftaran online
+
+Tiket keluhan & follow up
+
+🧑‍⚖️ 22. Modul Legal & Hukum
+Pengelolaan surat kuasa, persetujuan tindakan, informed consent
+
+Pencatatan kasus hukum (malpraktik, kejadian khusus)
+
+Manajemen dokumen hukum pasien
+
+🧾 23. Modul Pemulasaran Jenazah
+Pendataan jenazah & penyebab kematian
+
+Proses pemulasaran, surat kematian
+
+Koordinasi dengan keluarga & dokumen pemakaman
+
+Cetak dokumen pemakaman/rumah duka
+
+🧯 24. Modul Keselamatan Pasien / K3RS
+Pelaporan insiden keselamatan (IKP, sentinel)
+
+Pelatihan & simulasi kebakaran/bencana
+
+Inspeksi K3 alat & ruang rawat
+
+Formulir audit keselamatan
+
+🤝 25. Modul Kerja Sama & BPJS / Asuransi
+Data kontrak kerjasama RS dengan pihak ketiga
+
+Integrasi sistem BPJS/VClaim
+
+Pelaporan asuransi swasta
+
+Tagihan kolektif & penjaminan
+
+📤 26. Modul Laporan Pemerintah (SPM, SIRS, RL, dll)
+Format pelaporan Kemenkes RI (RL 1 - RL 7, SPM, SIRS Online)
+
+Ekspor data sesuai template
+
+Reminder laporan bulanan/tahunan
+
+🔄 27. Modul Integrasi Eksternal
+Bridging e-Klaim, INACBG, VClaim, P-Care
+
+API untuk keperluan eksternal (lab pihak ketiga, telemedicine)
+
+Integrasi ke DWH atau ERP rumah sakit
+
+🔒 28. Modul Keamanan & Audit Sistem
+Log aktivitas user (audit trail)
+
+Multi level akses (RBAC/ACL)
+
+Deteksi aktivitas mencurigakan
+
+Backup & recovery otomatis
+
+🌐 29. Modul Website / Portal Publik
+Informasi RS (jadwal dokter, fasilitas, berita)
+
+Pendaftaran online & hasil lab online
+
+Portal keluarga pasien (akses billing, riwayat)
+
+👨‍👩‍👧‍👦 30. Modul CRM (Customer Relationship Management)
+Riwayat interaksi pasien & keluarga
+
+Notifikasi ulang tahun / jadwal kontrol
+
+Kepuasan pelanggan (survei, feedback)
+
+Promo / program loyalitas
+
+Kalau rumah sakitnya berskala besar atau pendidikan, bisa ditambah juga:
+
+🎓 31. Modul Pendidikan & Penelitian
+Jadwal mahasiswa koas / PPDS
+
+Modul logbook dan penilaian
+
+Penelitian klinis & ethics review
+
+Data anonymized untuk riset
+
+Kalau mau yang benar-benar futuristik:
+🤖 32. Modul AI & Data Analytics
+Prediksi readmission pasien
+
+Deteksi penyakit lewat data
+
+Dashboard interaktif real-time
+
+Heatmap rawat inap, puncak kunjungan IGD, dll
